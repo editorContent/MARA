@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mara Marisa Benítez · Potencia tu Comunicación</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      background: #F2EBE0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      max-width: 400px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(59,35,20,0.12);
+    }
+
+    .card-header {
+      background: #3B2314;
+      padding: 2.5rem 2rem 2rem;
+      text-align: center;
+    }
+
+    .brand-tag {
+      font-family: 'Dancing Script', cursive;
+      font-size: 13px;
+      color: #9B7B6B;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.75rem;
+    }
+
+    .name {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #F2EBE0;
+      line-height: 1.2;
+      margin-bottom: 0.4rem;
+    }
+
+    .title {
+      font-size: 0.8rem;
+      color: #9B7B6B;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      width: 40px;
+      height: 2px;
+      background: #9B7B6B;
+      margin: 1rem auto 0;
+      border-radius: 2px;
+    }
+
+    .card-body {
+      padding: 1.75rem 2rem;
+    }
+
+    .section-title {
+      font-size: 0.65rem;
+      font-weight: 600;
+      color: #9B7B6B;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 1rem;
+    }
+
+    .contact-list {
+      list-style: none;
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.65rem 0;
+      border-bottom: 0.5px solid #F2EBE0;
+      text-decoration: none;
+      color: #3B2314;
+      transition: opacity 0.2s;
+    }
+
+    .contact-item:last-child { border-bottom: none; }
+    .contact-item:hover { opacity: 0.7; }
+
+    .contact-icon {
+      width: 36px;
+      height: 36px;
+      background: #F2EBE0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 18px;
+    }
+
+    .contact-label {
+      font-size: 0.7rem;
+      color: #9B7B6B;
+      margin-bottom: 1px;
+    }
+
+    .contact-value {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #3B2314;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .tag {
+      background: #F2EBE0;
+      color: #3B2314;
+      border-radius: 20px;
+      padding: 0.3rem 0.9rem;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+
+    .cta {
+      display: block;
+      background: #3B2314;
+      color: #F2EBE0;
+      text-align: center;
+      padding: 1rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      transition: background 0.2s;
+    }
+
+    .cta:hover { background: #9B7B6B; }
+
+    .card-footer {
+      text-align: center;
+      padding: 1rem 2rem 1.5rem;
+      font-size: 0.7rem;
+      color: #9B7B6B;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <div class="brand-tag">@potenciatucomunicacio</div>
+      <div class="name">Mara Marisa Benítez</div>
+      <div class="title">Lic. en Comunicación · Consultora Organizacional</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="card-body">
+      <div class="section-title">Contacto</div>
+      <ul class="contact-list">
+        <li>
+          <a class="contact-item" href="mailto:marissbez@gmail.com">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">marissbez@gmail.com</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="contact-item" href="https://wa.me/598095592301" target="_blank">
+            <div class="contact-icon">💬</div>
+            <div>
+              <div class="contact-label">WhatsApp</div>
+              <div class="contact-value">+598 095 592 301</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="contact-item" href="https://www.instagram.com/potenciatucomunicacio/" target="_blank">
+            <div class="contact-icon">📸</div>
+            <div>
+              <div class="contact-label">Instagram</div>
+              <div class="contact-value">@potenciatucomunicacio</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="contact-item" href="https://www.linkedin.com/in/mara-benitez" target="_blank">
+            <div class="contact-icon">💼</div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value">linkedin.com/in/mara-benitez</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      <div class="section-title">Especialidades</div>
+      <div class="tags">
+        <span class="tag">Comunicación interna</span>
+        <span class="tag">Liderazgo</span>
+        <span class="tag">Formación corporativa</span>
+        <span class="tag">Inteligencia emocional</span>
+        <span class="tag">Consultoría organizacional</span>
+      </div>
+
+      <a class="cta" href="https://wa.me/598095592301" target="_blank">Escribime por WhatsApp →</a>
+    </div>
+
+    <div class="card-footer">Potencia tu Comunicación</div>
+  </div>
+</body>
+</html>
